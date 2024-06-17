@@ -12,8 +12,8 @@ def on_recommend():
         messagebox.showerror("Error", "Movie not found!")
 
 
-ctk.set_appearance_mode("dark")  # Modes: "System" (default), "Dark", "Light"
-ctk.set_default_color_theme("blue")  # Themes: "blue" (default), "green", "dark-blue"
+ctk.set_appearance_mode("dark")
+ctk.set_default_color_theme("blue")
 
 root = ctk.CTk()
 root.title("Movie Recommendation System")
